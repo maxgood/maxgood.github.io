@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMIC-V1.0.0.21</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
+        
+        .title {
+            font-size: 28px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }
+        
+        .qr-container {
+            margin: 20px 0;
+        }
+        
+        .qr-code {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease;
+        }
+        
+        .qr-code:hover {
+            transform: scale(1.05);
+        }
+        
+        .description {
+            color: #7f8c8d;
+            font-size: 14px;
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+        
+        .release-time {
+            color: #95a5a6;
+            font-size: 12px;
+            font-weight: 500;
+            margin-top: 15px;
+            letter-spacing: 0.5px;
+        }
+        
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            font-weight: 600;
+            font-size: 14px;
+            margin-top: 25px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+        
+        .download-btn:active {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">LMIC-V1.0.0.22</h1>
+        <div class="qr-container">
+            <img src="LMIC-V1.0.0.22_20250630163754_release.png" 
+                 alt="LMIC-V1.0.0.22 二维码" 
+                 class="qr-code">
+        </div>
+        <p class="description">Scan the QR code above for more information</p>
+        <p class="release-time">Release: 2026-7-1 16:29</p>
+        <a href="LMIC-V1.0.0.22_20250630163754_release.apk" download class="download-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 16L7 11L8.4 9.6L11 12.2V4H13V12.2L15.6 9.6L17 11L12 16Z" fill="currentColor"/>
+                <path d="M5 20H19V18H5V20Z" fill="currentColor"/>
+            </svg>
+            Download APK
+        </a>
+    </div>
+</body>
+</html>
